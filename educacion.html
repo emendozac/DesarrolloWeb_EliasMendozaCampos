@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es-Es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="widh=device-width,user-scalable=no">
+    <meta name="author" content="Elías Mendoza">
+    <meta name="description" content="Hoja de Vida de Elías Mendoza">
+    <title>Proyecto Hoja de Vida Digital</title>
+  </head>
+  <body>
+    <header>
+    <nav>
+      <svg width="100" height="100">
+        <rect width="100%" height="100%" fill="green" />
+        <image xlink:href="img/siglas.svg" width="100px" height="100px"></images>
+      </svg>
+      <h1>HOJA DE VIDA</h1>
+      <h2>Elías Mendoza Campos</h2>
+      <h3>28 Diciembre 1970, Costa Rica</h3>
+        <p>
+        	<a href="index.html">Inicio</a> | <a href="educacion.html">Educación</a> | <a href="experencia.html">Experiencia</a>
+        </p>
+    </nav>
+  </header>
+  <h2><strong><em>Educación</em></strong></h2>
+    <center>
+      <table border="1" cellpadding="10" cellspacing="0">
+        <thead>
+          <tr>
+            <th>Año</th>
+            <th>Institución</th>
+            <th>Lugar</th>
+            <th>Culminó?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1980</td>
+            <td>Liceo de Chacarita</td>
+            <td>Puntarenas</td>
+            <td>Sí</td>
+          </tr>
+          <tr>
+            <td>1990</td>
+            <td>Universidad de Costa Rica</td>
+            <td>Alajuela</td>
+            <td>Sí</td>
+          </tr>
+          <tr>
+            <td>2000</td>
+            <td>Universidad Hispanoamerica</td>
+            <td>Puntarenas</td>
+            <td>Sí</td>
+          </tr>
+          <tr>
+            <td>20017</td>
+            <td>Universidad Castro Carazo</td>
+            <td>San José</td>
+            <td>Sí</td>
+          </tr>
+        </tbody>
+      </table>
+    </center>
+    <h2><strong><em>Agregar Estudios</em></strong></h2>
+    <form name="formEstudios" autocomplete="on">
+      <fieldset>
+        <legend>Datos de Estudios Realizados</legend>
+        <p>
+          <label for="ano">Año:</label>
+          <select name="ano">
+            <option selected="selected">2010</option>
+            <option >2011</option>
+            <option >2012</option>
+            <option >2013</option>
+            <option >2014</option>
+            <option >2015</option>
+            <option >2016</option>
+            <option >2017</option>
+            <option >2018</option>
+          </select>
+        </p>
+        <p>
+          <label for="institucion">Institución: </label>
+          <input id="institucion"type="text" name="institucion" placeholder="Liceo de Chararita" required>
+        </p>
+        <p>
+          <label for="lugar" >Lugar: </label>
+          <input id="lugar"type="text" name="lugar" placeholder="Puntarenas" required>
+        </p>
+
+        <p>
+          <label for="culmino">Culminó:? </label>
+          <input type="radio" name="culmino" checked="checked"> Si
+          <input type="radio" name="culmino"> No
+        </p>
+        <p>
+          <input type="submit" value="Registrar">
+        </p>
+
+      </fieldset>
+
+		</form>
+      <footer>
+        <p>Elias Mendoza,
+                 Puedes escribir un correo a <a href="mailto:elias_alberto33@hotmail.com">elias_alberto33@hotmail.com</a>.<a href="www.facebook.com" target="_blank">Facebook</a>
+         </p>
+
+      </footer>
+  </body>
+</html>
